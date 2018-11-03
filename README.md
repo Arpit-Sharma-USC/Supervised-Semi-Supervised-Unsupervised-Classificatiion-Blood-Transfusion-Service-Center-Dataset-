@@ -1,7 +1,7 @@
 # Supervised, Semi-Supervised and Unsupervised Classificatiion of Blood Transfusion Service Center Dataset 
 
 # Dataset
- https://archive. ics.uci.edu/ml/datasets/Blood+Transfusion+Service+Center
+ https://archive.ics.uci.edu/ml/datasets/Blood+Transfusion+Service+Center
  
  # Approach
  
