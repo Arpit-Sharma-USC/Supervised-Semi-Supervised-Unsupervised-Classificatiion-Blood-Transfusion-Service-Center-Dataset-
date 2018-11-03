@@ -20,3 +20,15 @@
     o  I ran k-means algorithm on the whole training set. Ignored the labels of the data, and assumed k = 2. 
 
     o	I then computed the centers of the two clusters and found the closest 30 data points to each center. I then read the true labels of those 30 data points and took a majority poll within them. The majority poll becomes the label predicted by k-means for the members of each cluster. Then I compared the labels provided by kmeans with the true labels of the training data and reported accuracy and the confusion matrix.
+
+# Comparison of all Approaches
+
+I observed the Supervised learning is the best method that can be used in this scenario where the sample of data is very less.
+Due to scarcity of the data the semi-supervised and unsupervised learning approaches do not perform well at all.
+
+Ideally semi-supervised performs well on the train set when compared to the unsupervised learning. I believe the true powers of the unsupervised learning are realized when we have a large amount of data to deal with, on contrary to the problem-dataset.
+
+For the given data-set Supervised learning method is the winner hands-down.
+
+
+For Detailed observations and accuracy graphs refer to 'Results.pdf'
