@@ -17,6 +17,6 @@
 
 •	Unsupervised:
 
-    o I ran k-means algorithm on the whole training set. Ignored the labels of the data, and assumed k = 2. 
+    o  I ran k-means algorithm on the whole training set. Ignored the labels of the data, and assumed k = 2. 
 
     o	I then computed the centers of the two clusters and found the closest 30 data points to each center. I then read the true labels of those 30 data points and took a majority poll within them. The majority poll becomes the label predicted by k-means for the members of each cluster. Then I compared the labels provided by kmeans with the true labels of the training data and reported accuracy and the confusion matrix.
